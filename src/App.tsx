@@ -21,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+        <h2>Hallo</h2>
         <input type="file" onChange={ev => {
             if(ev.target.files!=null){
                 setImg(ev.target.files[0]);
